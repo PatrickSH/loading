@@ -1,0 +1,5 @@
+.danban-bar-loader{
+    transition: width 1s;
+    width:0%;
+    height:20px;
+}
