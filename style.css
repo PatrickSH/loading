@@ -1,26 +1,21 @@
-.danban-bar-loader{
-    width:0%;
-    height:20px;
-}
-
-.danban-loading-fill{
-    transition: width 1s;
-}
-
-.danban-side-to-side{
+.loader-filler{
     position: relative;
-    -webkit-animation: side-to-side 2s infinite; /* Safari 4.0 - 8.0 */
-    animation: side-to-side 2s infinite;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-@keyframes side-to-side {
-    from {left: 0px;}
-    to {left: 100%;}
+    width:200px;
+    height:10px;
+    border:1px solid #ebebeb;
 }
 
-@-webkit-keyframes side-to-side {
-    from {left: 0px;}
-    to {left: 100%;}
+.loader-fill-time{
+    position: relative;
+    width:200px;
+    height:40px;
+    border:1px solid #ebebeb;
+}
+
+.loader-fill-s-to-s{
+    position: relative;
+    width:200px;
+    height:40px;
+    border:1px solid #ebebeb;
+    overflow: hidden;
 }
