@@ -6,8 +6,12 @@
 </head>
 
 <body>
-    <div class="danban-bar-loader" data-danban-loader-fill-color="red" data-danban-loader-fill-percentage="20"></div>
-    <div class="danban-bar-loader" data-danban-loader-fill-color="blue" data-danban-loader-fill-percentage="80"></div>
+    <!--
+        loading-side-to-side:
+            Should be in wrapper with overflow hidden.
+    -->
+    <div class="danban-bar-loader" data-danban-loader-fill-color="red" data-danban-loader-fill-percentage="20" data-danban-mode="loading-fill"></div>
+    <div class="danban-bar-loader" data-danban-loader-fill-color="blue" data-danban-loader-fill-percentage="80" data-danban-mode="loading-side-to-side"></div>
 </body>
 
 </html>
