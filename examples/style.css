@@ -1,0 +1,21 @@
+.loader-filler{
+    position: relative;
+    width:200px;
+    height:10px;
+    border:1px solid #ebebeb;
+}
+
+.loader-fill-time{
+    position: relative;
+    width:200px;
+    height:40px;
+    border:1px solid #ebebeb;
+}
+
+.loader-fill-s-to-s{
+    position: relative;
+    width:200px;
+    height:40px;
+    border:1px solid #ebebeb;
+    overflow: hidden;
+}

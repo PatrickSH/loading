@@ -1,0 +1,24 @@
+.danban-bar-loader{
+    width:0%;
+    height:100%;
+}
+
+.danban-loading-fill{
+    transition: width 1s;
+}
+
+.danban-side-to-side{
+    position: relative;
+    -webkit-animation: side-to-side 2s infinite forwards; /* Safari 4.0 - 8.0 */
+    animation: side-to-side 2s infinite forwards;
+
+}
+@keyframes side-to-side {
+    from {left: 0px;}
+    to {left: 100%;}
+}
+
+@-webkit-keyframes side-to-side {
+    from {left: -5%;}
+    to {left: 100%;}
+}
